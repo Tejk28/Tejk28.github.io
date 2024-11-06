@@ -30,8 +30,10 @@ html {
 /* Background styling for the entire website */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  color: #333;
+  font-family: "Poppins", sans-serif;
+  color: var(--clr-fg);
+  /*color: #333; */
+  background-color: var(--clr-bg);
   background: linear-gradient(135deg, #e0eafc, #cfdef3);
   overflow-x: hidden;
 }
