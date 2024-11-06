@@ -45,6 +45,11 @@ body {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
+.about__content {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* Adjust gap as needed */
+}
 
 .about__image-container {
   flex-shrink: 0; /* Prevent image from shrinking */
