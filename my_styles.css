@@ -45,6 +45,19 @@ body {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
+
+.about__image-container {
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.about__image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 4px solid #f3f3f3;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 ::-moz-selection {
   background: var(--clr-primary);
   color: var(--clr-bg);
