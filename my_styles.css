@@ -60,6 +60,8 @@ body {
 .about__image {
   width: 300px;
   height: 300px;
+  object-fit: cover; /* This crops the image to fit within the circle without distortion */
+  object-position: center; /* Centers the image within the circle */
   border-radius: 50%;
   margin-top: 30px;
   border: 4px solid #f3f3f3;
