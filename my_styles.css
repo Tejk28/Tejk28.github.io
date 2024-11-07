@@ -49,6 +49,7 @@ body {
   display: flex;
   align-items: center;
   gap: 50px; /* Adjust gap as needed */
+  flex-wrap: wrap;
 }
 
 .about__image-container {
